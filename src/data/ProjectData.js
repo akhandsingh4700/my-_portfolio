@@ -1,50 +1,60 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/Freedo.png",
+    title: "Freedo Rentals By Hero MotoCorp",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "Freedo aims to reduce dependence on personal vehicle and owner-ship by introducing User-ship through shared vehicles, and in the process leaving the planet a bit healthier.",
+    tech_stack: ["React JS", "TypeScript",  "Redux Saga", "Material UI","JWT", "Node JS", "GraphQl"],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    demo_url: "https://freedo.rentals/",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/BOTSHOT.png",
+    title: "Hotel Automation Solutions – BOTSHOT",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "BotShot offers the newest technologies to automate hotel operations while enhancing guest satisfaction.",
+    tech_stack: ["React JS", "Redux" , "Material UI", "SCSS"],
     github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+    demo_url: "https://botshot.ai/",
+  },
+
+  {
+    img: "/KPMG-GPT.png",
+    title: "KPMG-GPT",
+    description:
+      "KPMG Chat-bot is Chat Generative Pre-trained Transformer like ChatGPT, It has own trained Audit Model",
+    tech_stack: ["React JS", "Next JS" , "Material UI", "LDAP", "FAST API"],
+    github_url: "",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/Kafene.png",
+    title: "Kafene",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "An app where admin can manage orders, products stocks and users.",
+    tech_stack: ["HTML", "CSS", "React JS"],
+    github_url: "https://github.com/akhandsingh4700/React_Kafene_Adarsh",
+    demo_url: "https://react-kafene-adarsh-rho.vercel.app/",
   },
-  {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
-    description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
-  },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
-  },
+  // {
+  //   img: "/pokedex-responsive.png",
+  //   title: "Pokedex",
+  //   description:
+  //     "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
+  //   tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
+  //   github_url: "https://github.com/salesp07/Pokedex-ReactApp",
+  //   demo_url: "https://pokedex-salesp07.netlify.app/",
+  // },
+  // {
+  //   img: "/jobDetect.png",
+  //   title: "JobDetect",
+  //   description:
+  //     "An app to detect if a job posting is a scam or not using its description.",
+  //   tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
+  //   github_url: "https://github.com/salesp07/JobDetectNode",
+  //   demo_url: "https://jobdetective.onrender.com/",
+  // },
 ];
 
 // --------------------------------------- Skills
@@ -67,6 +77,14 @@ export const stackList = [
     name: "ReactJS",
   },
   {
+    img: "./redux.svg",
+    name: "Redux",
+  },
+  {
+    img: "./jwtio-json-web-token.svg",
+    name: "JWT",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
     name: "NextJs",
   },
@@ -78,42 +96,12 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
-    name: "NodeJS",
-  },
+
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
     name: "Firebase",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-    name: "MySQL",
-  },
+
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
     name: "Bootstrap",
@@ -125,10 +113,6 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",

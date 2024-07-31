@@ -15,6 +15,9 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="projects">
             Projects
           </NavLink>
+          <NavLink className="menu-item" to="skill">
+            Skills
+          </NavLink>
           <NavLink className="menu-item" to="about">
             About
           </NavLink>
@@ -25,7 +28,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            href="/AkhandSingh_Resume_5Years_Exp.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
