@@ -24,7 +24,8 @@ function Contact() {
           <div className="BigCard">
             <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
-                <span>akhandsingh7545@gmail.com</span>
+                Email :  <span>akhandsingh7545@gmail.com</span>
+             
                 <Tooltip
                   PopperProps={{
                     disablePortal: true,
@@ -51,7 +52,12 @@ function Contact() {
               >
                 Send Email
               </a>
-            </Email>
+    
+              </Email>
+              <div style={{ marginLeft:"70px"}} >
+                Phone :  <span style = {{fontWeight:500}}>+91 9696536158</span>
+              </div>
+         
           </div>
         </ScrollAnimation>
 

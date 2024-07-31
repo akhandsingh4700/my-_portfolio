@@ -33,7 +33,7 @@ function About() {
   
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Apart from coding I love to play Video Games and exloring new
+              Apart from coding I love to play Video Games and exploring new
               things and places.
             </ScrollAnimation>
           </div>
